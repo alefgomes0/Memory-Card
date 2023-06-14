@@ -3,7 +3,7 @@ import { cardData } from "./carddata"
 
 
 
-export function CardContainer() {
+export const CardContainer = () => {
   const cards = cardData;
   const totalCards = cards.length;
 
