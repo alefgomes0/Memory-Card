@@ -14,13 +14,13 @@ export const cardData = [
   {
     id: 2,
     name: "Princess Bubblegum",
-    url: "http://img1.wikia.nocookie.net/__cb20120711200410/adventuretimewithfinnandjake/images/6/62/Princess_Bubblegum_with_her_hair_back.png",
+    url: "https://static.wikia.nocookie.net/adventuretimewithfinnandjake/images/2/2d/Young_Princess_Bubblegum_1.png",
     alt: "Princess Bubblegum",
   },
   {
     id: 3,
     name: "Marcenline",
-    url: "http://vignette3.wikia.nocookie.net/adventuretimewithfinnandjake/images/f/fd/MarcelinePresentation.png",
+    url: "https://static.wikia.nocookie.net/adventuretimewithfinnandjake/images/5/51/MarshmalineElements.png",
     alt: "Marceline",
   },
   {
