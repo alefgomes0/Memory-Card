@@ -4,5 +4,5 @@ export const Header = ({ children }) => {
       <h2>Memory Card Game</h2>
       {children}
     </div>
-  )
-}
+  );
+};
