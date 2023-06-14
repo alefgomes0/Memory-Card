@@ -1,4 +1,4 @@
-export const Card = ( {name, url, alt} ) => {
+export const Card = ( {name, url, alt } ) => {
   return (
     <div className="card">
       <img src={url} alt={alt} />
