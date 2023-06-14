@@ -14,19 +14,20 @@ function App() {
   };
 
   useEffect(() => {
-    handleScoreUpdate();
-  }, [selectedIds]);
-
-  const handleScoreUpdate = () => {
     const noDuplicates = selectedIds.length === new Set(selectedIds).size;
 
-    if (noDuplicates) {
-      setCurrentScore(currentScore + 1);
-    } else {
+    if (noDuplicates && selectedIds.length !== 0) {
+      setCurrentScore((prevScore) => prevScore + 1);
+    } else if (!noDuplicates) {
       setCurrentScore(0);
       setSelectedIds([]);
     }
-  }
+
+    if (currentScore > bestScore) {
+      setBestScore(currentScore)
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedIds]);
 
 
   return (
